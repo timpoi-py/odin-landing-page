@@ -92,15 +92,21 @@
     color: #F9FAF8;
 }
 
+.section-1-left a {
+    height: auto ;
+    width: max-content;
+
+}
+
 .section-1-left button {
     background-color: #3882F6;
     font-size: 1.125rem;
     color: #F9FAF8;
-    padding: 0.625rem 1rem;
     font-weight: bold;
     border-radius: 0.625rem;
     border: none;
-    width: max-content;
+    padding: 0.625rem 1rem;
+
 }
 
 .section-1-left button:hover {
@@ -296,6 +302,12 @@
     .section-1-left button {
         margin-top: 2rem;
     }
+
+    .section-1-left a {
+        height: auto;
+        width: max-content;
+    }
+    
 
     .section-2 {
         display: block;
